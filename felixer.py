@@ -2,6 +2,7 @@ import discord
 import random
 import asyncio
 from discord.ext import commands
+import os
 
 bot = commands.Bot(command_prefix='!!')
 
@@ -33,5 +34,4 @@ async def on_message(ctx):
         else :
             await ctx.delete()
 
-
-bot.run("TOKEN")
+bot.run(os.getenv("TOKEN"))
