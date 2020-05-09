@@ -34,4 +34,4 @@ async def on_message(ctx):
             await ctx.delete()
 
 
-bot.run("Njk4NjkxMjU3ODI4MTE0NDQz.XqsR5A.D80j1lfzVKtWS0Bmiq5gEz5RIIo")
+bot.run("TOKEN")
